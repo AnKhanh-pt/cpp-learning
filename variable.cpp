@@ -29,16 +29,14 @@ int main() {
         cout << "Điểm trung bình: " << diemTB<< endl;
 
         if (diemTB >= 8.0) {
-            cout << name << "Loại giỏi" << endl;
+            cout << name << " loại giỏi" << endl;
         } else if ((diemTB >= 6.5) || (diemTB >= 8.0) ) {
-                cout << name << "Loại khá" << endl;
+                cout << name << " loại khá" << endl;
         } else if ( diemTB >= 5.0) {
-            cout << name << "Loại trung bình khá" << endl;
+            cout << name << " loại trung bình khá" << endl;
         } else {
-            cout << name << "Loại trung bình" << endl;
+            cout << name << " loại trung bình" << endl;
         }
-
-
 
     return 0;
 }
