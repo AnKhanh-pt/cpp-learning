@@ -27,12 +27,11 @@ int main() {
     max = a;
     if (max < b) {
         max = b;
-    }
-    
-    if (max < c) {
-        max = c;
-    }
-
+        if (max < c) {
+            max = c;
+        }
+    }  
+   
     cout << "Số lớn nhất là: " << max;
 
     return 0;
